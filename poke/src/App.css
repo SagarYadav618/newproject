@@ -1,0 +1,109 @@
+/* App.css */
+
+/* Container for the entire layout */
+.container {
+    display: flex;
+    padding: 20px;
+}
+
+/* Style for the Pokémon list column */
+.pokemon-list {
+    width: 30%;
+    border-right: 1px solid lightgray;
+    padding-right: 20px;
+}
+
+/* Header style */
+.header {
+    background-color: #4285F4;
+    color: white;
+    padding: 10px;
+}
+
+/* List style */
+.list {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Style for each list item */
+.list-item {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+/* Image style within the list item */
+.list-item img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+/* Style for the Pokémon name in the list */
+.list-item span {
+    font-size: 18px;
+    padding-left: 40px;
+
+}
+
+/* Style for the details column */
+.details {
+    position: fixed;
+    right: 0;
+    bottom: 78px;
+    width: 30%; /* Adjust width to fit content */
+    padding: 20px;
+    margin-right: 450px;
+    /* background-color: white; */
+    height: calc(100vh - 120px); /* Ensure full height minus the bottom offset */
+    overflow-y: auto;
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); Optional: add shadow for better visibility */
+}
+
+/* Header style within the details column */
+.details-header {
+    background-color: #4285F4;
+    color: white;
+    padding: 10px;
+    width:270px;
+    /* text-align: center; */
+}
+
+/* Style for the Pokémon image in the details column */
+.details-img {
+    width: 200px;
+    /* margin: 20px auto; */
+    display: block;
+}
+
+/* Container for details info */
+.details-info {
+
+    margin-left: 10px;
+}
+
+/* Style for labels in details info */
+.info-label {
+    font-weight: bold;
+    width: 120px; /* Fixed width for alignment */
+    padding-bottom: 20px;
+    display: inline-block;
+}
+
+/* Style for values in details info */
+.info-value {
+    margin-left: 10px; /* Adjust as needed for spacing */
+}
+
+/* Style for types list */
+.types-list {
+    display: flex;
+    flex-direction: column;
+    margin-left: 130px;
+    margin-top: -20px;
+}
+
+.types-list div {
+    margin-bottom: 5px;
+}
